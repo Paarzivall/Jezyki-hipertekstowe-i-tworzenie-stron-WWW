@@ -1,0 +1,146 @@
+body{
+	/*background-image:url(img/tlo.jpg);*/
+	background-color:#BBCFDA;
+	}
+
+#desktop_menu{
+	/*background-color:rgba(153,153,153,0.6);	*/
+	background-color: #6191A8;
+	color:white;
+}
+
+#desktop_menu img{
+	margin-left:2%;
+}
+
+#desktop_menu li:hover{
+	text-decoration:underline;
+	/*background-color:rgb(51,51,51);*/
+	background-color:#121F27 !important;
+}
+
+#desktop_menu li>a:hover{
+	color:#FF3333;
+}
+
+#desktop_menu .active{
+	/*background-color:rgb(51,51,51);*/
+	background-color:#121F27 !important;
+}
+
+.btn{
+	/*background-color:rgb(51,51,51);
+	border:1px solid rgb(51,51,51);*/
+	background-color: #416275 !important;
+	border:1px solid #416275 !important;
+}
+
+.btn:hover{
+	color:#FF3333 !important;
+	text-decoration:underline;
+	/*background-color:rgb(51,51,51) !important;
+	border:1px solid rgb(51,51,51) !important;*/
+	background-color:#121F27 !important;
+	border:1px solid #121F27 !important;
+}
+
+#menu{
+	padding:1%;
+}
+
+#phone_menu{
+	/*background-color:rgba(153,153,153,0.6);*/
+	background-color: #6191A8;
+}
+
+a{
+	color:white;
+}
+
+#phone_menu .active{
+	background-color:rgb(51,51,51);
+}
+
+#roll_button{
+/*	background-color:rgb(51,51,51);
+	border:1px solid rgb(51,51,51);
+*/
+	background-color: #416275 !important;
+	border:1px solid #416275 !important;
+	color:white;
+}
+
+
+.obraz{
+	object-fit:cover;
+	object-position:center center;
+	height:60vh !important;
+}
+
+.nav-link{
+	border-radius:5px;
+}
+
+.nav-link:hover{
+	color:#FF3333;
+	text-decoration:underline;
+}
+
+#phone_menu li>a:hover{
+	color:#FF3333;
+}
+
+.controls{
+
+	background-color:red;
+}
+
+footer{
+	text-align:center;
+	background-color: #6191A8;
+	color:white;
+}
+
+#last{
+	border:1px solid black;
+	border-radius:20px;
+}
+
+.controls{
+	background-color:transparent;
+}
+
+.controls:hover{
+	background-color:transparent;
+}
+
+#spr_kolor{
+	height:1vh;
+}
+
+#komentarz{
+	overflow-x:hidden;
+	height:50vh;
+}
+
+#ikony{
+	font-size:2em;
+}
+
+/*Galeria*/	
+.gallery{
+	margin: 10px 50px;
+}
+.gallery img{
+	width:30vh;
+	filter: sepia(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter:sepia(0);
+	transform: scale(1.1);
+}
+	
+	
+
